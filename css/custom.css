@@ -1,3 +1,65 @@
+:root {
+	--bg-col: rgb(75, 75, 75);
+	--hr-col: rgb(113, 169, 204);
+	--link-col: rgb(135,206,250);
+}
+
 body {
-	background: url(css/../bg1.png) repeat;
+	background-image: url(css/../bg1.png);
+	background-color: var(--bg-col);
+}
+
+#j_avatar {
+	width:  200px;
+	height: 200px;
+}
+
+img {
+	border: 1px solid black;
+	box-shadow:0px 0px 5px black;
+}
+
+h1 {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+h3 {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+label {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+p {
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+a {
+	color: var(--link-col);
+	text-shadow: 2px 1px black;
+}
+
+#top-tbl {
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+#skills-tbl {
+	color: white;
+	border: solid 3px var(--hr-col);
+	border-collapse: collapse;
+	text-shadow: 1px 1px black;
+}
+
+.main_page_separators {	
+	border: none;
+	border-top: 5px dotted var(--hr-col);
+	width: 5%;
 }
